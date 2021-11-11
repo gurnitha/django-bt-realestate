@@ -39,6 +39,16 @@
         modified:   apps/pages/views.py
 
 
+### 2. BASE TEMPLATES AND TEMPLATES INHERITANCE
+
+#### 2.1 Create base template
+
+        modified:   README.md
+        modified:   apps/pages/templates/pages/about.html
+        modified:   apps/pages/templates/pages/index.html
+        modified:   realestate/settings.py
+        new file:   templates/base.html
+
 
 
 
