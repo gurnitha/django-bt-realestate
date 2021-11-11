@@ -9,6 +9,10 @@ from django.conf.urls.static import static
 # Locals
 
 urlpatterns = [
+    # Pages
+    path('', include('apps.pages.urls', namespace='pages')),
+    
+    # Admin
     path('admin/', admin.site.urls),
 ]
 

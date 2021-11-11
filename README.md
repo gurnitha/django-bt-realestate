@@ -20,3 +20,12 @@
         new file:   realestate/settings.py
         new file:   realestate/urls.py
         new file:   realestate/wsgi.py
+
+
+#### 1.2 Create home page VTU
+
+        modified:   README.md
+        new file:   apps/pages/templates/pages/index.html
+        new file:   apps/pages/urls.py
+        modified:   apps/pages/views.py
+        modified:   realestate/urls.py
