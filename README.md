@@ -49,7 +49,14 @@
         modified:   realestate/settings.py
         new file:   templates/base.html
 
+#### 2.2 Template inheritance
 
+        modified:   README.md
+        modified:   apps/pages/templates/pages/about.html
+        modified:   apps/pages/templates/pages/index.html
+        modified:   templates/base.html
+        new file:   templates/inc/head.html
+        new file:   templates/inc/navbar.html
 
 
 
