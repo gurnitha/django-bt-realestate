@@ -77,6 +77,24 @@
         new file:   templates/inc/topbar.html
 
 
+### 4. LISTINGS
+
+#### 4.1 Create a new app 'apps/listings' and register it to the project
+
+        modified:   README.md
+        new file:   apps/listings/__init__.py
+        new file:   apps/listings/admin.py
+        new file:   apps/listings/apps.py
+        new file:   apps/listings/migrations/__init__.py
+        new file:   apps/listings/models.py
+        new file:   apps/listings/tests.py
+        new file:   apps/listings/views.py
+        modified:   realestate/settings.py
+        new file:   realestate/static/assets/img/favicon.png
+        modified:   templates/inc/head.html
+
+
+
 
 
 
