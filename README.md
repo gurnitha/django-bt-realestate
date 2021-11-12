@@ -115,8 +115,13 @@
         new file:   apps/realtors/views.py
         modified:   realestate/settings.py
 
+#### 5.2 Create Realtor model, run migration and register Realtor to admin
 
-
+        new file:   apps/listings/migrations/0002_listing_realtor.py
+        modified:   apps/listings/models.py
+        modified:   apps/realtors/admin.py
+        new file:   apps/realtors/migrations/0001_initial.py
+        modified:   apps/realtors/models.py
 
 
 
