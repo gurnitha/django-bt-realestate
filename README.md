@@ -93,8 +93,12 @@
         new file:   realestate/static/assets/img/favicon.png
         modified:   templates/inc/head.html
 
+#### 4.2 Create Listing model, run migration and register Listing to admin
 
-
+        modified:   README.md
+        modified:   apps/listings/admin.py
+        new file:   apps/listings/migrations/0001_initial.py
+        modified:   apps/listings/models.py
 
 
 
