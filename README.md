@@ -124,6 +124,14 @@
         modified:   apps/realtors/models.py
 
 
+#### 5.3 Inserting dumy data of Listing and Realtor to db
+
+        modified:   README.md
+        modified:   apps/realtors/models.py
+        new file:   media/photos/2021/11/12/home-1.jpg
+        ...
+        new file:   media/photos/2021/11/12/home-2.jpg
+        new file:   media/photos/2021/11/12/home-3.jpg
 
 
 
