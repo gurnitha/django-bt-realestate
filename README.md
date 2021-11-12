@@ -101,7 +101,19 @@
         modified:   apps/listings/models.py
 
 
+### 5. REALTORS
 
+#### 5.1 Create a new app 'apps/realtors' and register it to the project
+
+        modified:   README.md
+        new file:   apps/realtors/__init__.py
+        new file:   apps/realtors/admin.py
+        new file:   apps/realtors/apps.py
+        new file:   apps/realtors/migrations/__init__.py
+        new file:   apps/realtors/models.py
+        new file:   apps/realtors/tests.py
+        new file:   apps/realtors/views.py
+        modified:   realestate/settings.py
 
 
 

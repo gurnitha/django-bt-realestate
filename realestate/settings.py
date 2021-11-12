@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     # Locals
     'apps.pages.apps.PagesConfig',
     'apps.listings.apps.ListingsConfig',
+    'apps.realtors.apps.RealtorsConfig',
 ]
 
 MIDDLEWARE = [
