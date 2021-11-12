@@ -59,7 +59,22 @@
         new file:   templates/inc/navbar.html
 
 
+### 3. Adding Theme
 
+#### 3.1 Adding static assets, index and about template themes
+
+        modified:   README.md
+        modified:   apps/pages/templates/pages/about.html
+        modified:   apps/pages/templates/pages/index.html
+        modified:   realestate/settings.py
+        ...
+        new file:   realestate/static/assets/webfonts/fa-solid-900.woff2
+        modified:   templates/base.html
+        new file:   templates/inc/footer.html
+        modified:   templates/inc/head.html
+        modified:   templates/inc/navbar.html
+        new file:   templates/inc/scripts.html
+        new file:   templates/inc/topbar.html
 
 
 
