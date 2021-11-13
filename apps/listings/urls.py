@@ -12,4 +12,5 @@ app_name = 'listings'
 # Urls
 urlpatterns = [
     path('listing-list', views.listing_list, name='listing_list'),
+    path('listing-detail/<int:listing_id>/', views.listing_detail, name='listing_detail'),
 ]

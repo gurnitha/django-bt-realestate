@@ -12,3 +12,7 @@ def listing_list(request):
 	listings = Listing.objects.all()
 	context = {'listings':listings}
 	return render(request, 'listings/listing_list.html', context)
+
+def listing_detail(request, listing_id):
+	context = {}
+	return render(request, 'listings/listing_detail.html', context)

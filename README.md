@@ -175,7 +175,17 @@
         modified:   realestate/settings.py
 
 
+#### 7.3 Create listing_detail page TVU and add template thame to it
 
+
+        modified:   README.md
+        new file:   apps/listings/templates/listings/listing_detail.html
+        modified:   apps/listings/templates/listings/listing_list.html
+        modified:   apps/listings/urls.py
+        modified:   apps/listings/views.py
+        new file:   realestate/static/assets/img/homes/home-1.jpg
+        ...
+        new file:   realestate/static/assets/img/homes/home-inside-6.jpg
 
 
 
