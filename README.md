@@ -142,8 +142,10 @@
         new file:   realestate/static/assets/css/admin.css
         new file:   templates/admin/base_site.html
 
+#### 6.2 Customizing list_display etc of the Listing in the admin panel
 
-
+        modified:   README.md
+        modified:   apps/listings/admin.py
 
 
 
