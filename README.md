@@ -212,9 +212,10 @@
         modified:   README.md
         modified:   apps/listings/templates/listings/listing_list.html
 
+#### 8.4 PART 4: Workin on listing_list page - Showing the pagination (showing the NEXT)
 
-
-
+        modified:   README.md
+        modified:   apps/listings/templates/listings/listing_list.html
 
 
 
