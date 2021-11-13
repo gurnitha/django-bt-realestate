@@ -207,9 +207,10 @@
         modified:   README.md
         modified:   apps/listings/templates/listings/listing_list.html
 
+#### 8.3 PART 3: Workin on listing_list page - Showing the pagination (showing the: previous, active and not active link)
 
-
-
+        modified:   README.md
+        modified:   apps/listings/templates/listings/listing_list.html
 
 
 
