@@ -2,7 +2,7 @@
 
 # Django modules
 from django.shortcuts import render, get_object_or_404
-
+from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 # locals
 from apps.listings.models import Listing
 
@@ -10,7 +10,18 @@ from apps.listings.models import Listing
 
 def listing_list(request):
 	listings = Listing.objects.all()
-	context = {'listings':listings}
+
+	# Get 3 listings objects per page
+	paginator = Paginator(listings, 3)
+	# Passing the url parameter 'page' to the GET method
+	page = request.GET.get('page')
+	# Get the page
+	page_listings = paginator.get_page(page)
+
+	context = {
+		# 'listings':listings,
+		'listings':page_listings
+	}
 	return render(request, 'listings/listing_list.html', context)
 
 def listing_detail(request, listing_id):

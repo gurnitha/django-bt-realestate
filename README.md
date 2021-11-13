@@ -153,7 +153,7 @@
         modified:   apps/realtors/admin.py
 
 
-### 7. LISTINGS CRUD
+### 7. LISTINGS CRUD (READ)
 
 #### 7.1 Create listing_list page TVU and add template thame to it
 
@@ -195,9 +195,12 @@
         modified:   apps/listings/views.py
 
 
+### 8. PAGINATION
 
+#### 8.1 PART 1: Workin on listing_list view - Get the pages from the db
 
-
+        modified:   README.md
+        modified:   apps/listings/views.py
 
 
 
