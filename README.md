@@ -147,8 +147,10 @@
         modified:   README.md
         modified:   apps/listings/admin.py
 
+#### 6.3 Customizing list_display etc of the Realtor in the admin panel
 
-
+        modified:   README.md
+        modified:   apps/realtors/admin.py
 
 
 
