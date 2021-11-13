@@ -165,6 +165,14 @@
         modified:   templates/inc/navbar.html
 
 
+#### 7.2 Read and render listings from db to listing_list page
+
+        modified:   README.md
+        modified:   apps/listings/templates/listings/listing_list.html
+        modified:   apps/listings/views.py
+        new file:   media/photos/2021/11/13/home-6.jpg
+        ...
+        modified:   realestate/settings.py
 
 
 
