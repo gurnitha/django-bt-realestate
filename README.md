@@ -226,6 +226,14 @@
         modified:   apps/listings/views.py
 
 
+### 10. MAKING THE HOME AND ABOUT PAGE DYNAMIC
+
+#### 10.1 Displaying listings (with limit 3) to home page
+
+        modified:   README.md
+        modified:   apps/pages/templates/pages/index.html
+        modified:   apps/pages/views.py
+
 
 
 
