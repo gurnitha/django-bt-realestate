@@ -9,7 +9,8 @@ from apps.listings.models import Listing
 # Create your views here.
 
 def listing_list(request):
-	listings = Listing.objects.all()
+	# listings = Listing.objects.all()
+	listings = Listing.objects.order_by('-list_date').filter(is_published=True)
 
 	# Get 3 listings objects per page
 	paginator = Paginator(listings, 3)

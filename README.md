@@ -218,6 +218,14 @@
         modified:   apps/listings/templates/listings/listing_list.html
 
 
+### 9. LISTINGS CRUD (READ)
+
+#### 9.1 Display listings ORDER BY the most recent and filter by is_published
+
+        modified:   README.md
+        modified:   apps/listings/views.py
+
+
 
 
 
