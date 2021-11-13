@@ -188,8 +188,11 @@
         new file:   realestate/static/assets/img/homes/home-inside-6.jpg
 
 
+#### 7.4 Read and render listing single from db to listing_detail page
 
-
+        modified:   README.md
+        modified:   apps/listings/templates/listings/listing_detail.html
+        modified:   apps/listings/views.py
 
 
 
