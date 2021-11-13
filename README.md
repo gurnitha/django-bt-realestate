@@ -153,6 +153,19 @@
         modified:   apps/realtors/admin.py
 
 
+### 7. LISTINGS CRUD
+
+#### 7.1 Create listing_list page TVU and add template thame to it
+
+        modified:   README.md
+        new file:   apps/listings/templates/listings/listing_list.html
+        new file:   apps/listings/urls.py
+        modified:   apps/listings/views.py
+        modified:   realestate/urls.py
+        modified:   templates/inc/navbar.html
+
+
+
 
 
 

@@ -11,7 +11,10 @@ from django.conf.urls.static import static
 urlpatterns = [
     # Pages
     path('', include('apps.pages.urls', namespace='pages')),
-    
+
+    # Listings
+    path('', include('apps.listings.urls', namespace='listings')),
+
     # Admin
     path('admin/', admin.site.urls),
 ]
