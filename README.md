@@ -202,7 +202,10 @@
         modified:   README.md
         modified:   apps/listings/views.py
 
+#### 8.2 PART 2: Workin on listing_list page - Showing the pagination (showing no-previous mark)
 
+        modified:   README.md
+        modified:   apps/listings/templates/listings/listing_list.html
 
 
 
