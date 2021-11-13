@@ -234,7 +234,11 @@
         modified:   apps/pages/templates/pages/index.html
         modified:   apps/pages/views.py
 
+#### 10.2 Displaying Team of Realtors to the about page
 
+        modified:   README.md
+        modified:   apps/pages/templates/pages/about.html
+        modified:   apps/pages/views.py
 
 
 
