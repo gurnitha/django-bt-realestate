@@ -1,0 +1,19 @@
+<!-- templates/admin/base_site.html -->
+
+{% extends 'admin/base.html' %}
+
+{% load static %}
+
+{% block branding %}
+
+	<div id="head" style="margin-top: -10px;">
+		<img class="brand_img"  src="{% static 'assets/img/logo.png' %}" alt="ING Real Estate"  height="40", width="60"><h2 style="margin-bottom: 0px; color: #fff; padding-left: 0px;">ING Real Estate<span style="margin-left: 40px;">Admin Area</span></h2>
+	</div>
+
+{% endblock branding %}
+
+{% block extrastyle %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'assets/css/admin.css' %}">
+
+{% endblock extrastyle %}

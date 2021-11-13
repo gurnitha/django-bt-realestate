@@ -134,6 +134,14 @@
         new file:   media/photos/2021/11/12/home-3.jpg
 
 
+### 6. CUSTOMIZING ADMIN DISPLAY
+
+#### 6.1 Customizing colors of the admin panel
+
+        modified:   README.md
+        new file:   realestate/static/assets/css/admin.css
+        new file:   templates/admin/base_site.html
+
 
 
 
