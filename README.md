@@ -241,8 +241,10 @@
         modified:   apps/pages/views.py
 
 
+#### 10.2 Displaying SELLER OF THE MONTH Realtor to the about page
 
-
+        modified:   README.md
+        modified:   apps/pages/templates/pages/about.html
 
 
 

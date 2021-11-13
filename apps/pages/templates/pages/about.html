@@ -41,18 +41,29 @@
                         commodi id libero eveniet harum perferendis laborum molestias quia.
                     </p>
                 </div>
+
+                <!-- Seller of the month -->
+                {% if mvp_realtors %}
+                {% for mvp_realtor in mvp_realtors %}
                 <div class="col-md-4">
                     <div class="card">
-                        <img class="card-img-top" src="{% static 'assets/img/realtors/kyle.jpg' %}" alt="Seller of the month">
+                        <img class="card-img-top" src="{{mvp_realtor.photo.url}}" alt="Seller of the month">
                         <div class="card-body">
                             <h5 class="card-title">Seller Of The Month</h5>
-                            <h6 class="text-secondary">Kyle Brown</h6>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt amet, illo itaque similique repellat.
-                                content.
+                            <h6 class="text-secondary">{{mvp_realtor.name|title}}</h6>
+                            <p class="card-text">
+                                {{mvp_realtor.description}}
                             </p>
                         </div>
                     </div>
                 </div>
+                {% endfor %}
+                {% else %}
+                <div class="col-md-12">
+                    <p>No Best Seller available.</p>
+                </div>
+                {% endif %}
+                <!-- Seller of the month -->
             </div>
         </div>
     </section>
@@ -74,9 +85,15 @@
                 <div class="col-md-4">
                     <img src="{{realtor.photo.url}}" alt="" class="rounded-circle mb-3">
                     <h4>{{realtor.name|title}}</h4>
+                    {% if realtor.is_mvp == True %}
+                    <p class="text-success">
+                        <i class="fas fa-award text-success mb-3"></i> Realtor <span style="color:#080808;">(Best Seller)</span>
+                    </p>
+                    {% else %}
                     <p class="text-success">
                         <i class="fas fa-award text-success mb-3"></i> Realtor
-                    </p>
+                    </p>                    
+                    {% endif %}
                     <hr>
                     <p>
                         <i class="fas fa-phone"></i> {{realtor.phone}}
