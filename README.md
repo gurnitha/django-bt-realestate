@@ -1,5 +1,5 @@
 ## BUILDING LISTING OF REAL ESTATE APP USING DJANGO V3.2
-
+https://github.com/gurnitha/django-bt-realestate
 
 
 ### 1. COMPLETE SETUP
@@ -292,8 +292,15 @@
 
 
 
+### 11. DEPLOY TO GITHUB
+### --------------------
 
 
+#### 11.1 Create a new repository and deploy the project to Github
+
+        https://github.com/gurnitha/django-bt-realestate
+
+        modified:   README.md
 
 
 
