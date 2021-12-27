@@ -1,7 +1,10 @@
 ## BUILDING LISTING OF REAL ESTATE APP USING DJANGO V3.2
 
 
+
 ### 1. COMPLETE SETUP
+### ------------------
+
 
 #### 1.1 Create project, app, .env db, static, media
 
@@ -39,7 +42,10 @@
         modified:   apps/pages/views.py
 
 
+
 ### 2. BASE TEMPLATES AND TEMPLATES INHERITANCE
+### -------------------------------------------
+
 
 #### 2.1 Create base template
 
@@ -48,6 +54,7 @@
         modified:   apps/pages/templates/pages/index.html
         modified:   realestate/settings.py
         new file:   templates/base.html
+
 
 #### 2.2 Template inheritance
 
@@ -59,7 +66,10 @@
         new file:   templates/inc/navbar.html
 
 
-### 3. Adding Theme
+
+### 3. ADDING THEME
+### ---------------
+
 
 #### 3.1 Adding static assets, index and about template themes
 
@@ -77,7 +87,10 @@
         new file:   templates/inc/topbar.html
 
 
+
 ### 4. LISTINGS
+### ---------------
+
 
 #### 4.1 Create a new app 'apps/listings' and register it to the project
 
@@ -93,6 +106,7 @@
         new file:   realestate/static/assets/img/favicon.png
         modified:   templates/inc/head.html
 
+
 #### 4.2 Create Listing model, run migration and register Listing to admin
 
         modified:   README.md
@@ -101,7 +115,10 @@
         modified:   apps/listings/models.py
 
 
+
 ### 5. REALTORS
+### -----------
+
 
 #### 5.1 Create a new app 'apps/realtors' and register it to the project
 
@@ -114,6 +131,7 @@
         new file:   apps/realtors/tests.py
         new file:   apps/realtors/views.py
         modified:   realestate/settings.py
+
 
 #### 5.2 Create Realtor model, run migration and register Realtor to admin
 
@@ -134,7 +152,10 @@
         new file:   media/photos/2021/11/12/home-3.jpg
 
 
+
 ### 6. CUSTOMIZING ADMIN DISPLAY
+### ----------------------------
+
 
 #### 6.1 Customizing colors of the admin panel
 
@@ -142,10 +163,12 @@
         new file:   realestate/static/assets/css/admin.css
         new file:   templates/admin/base_site.html
 
+
 #### 6.2 Customizing list_display etc of the Listing in the admin panel
 
         modified:   README.md
         modified:   apps/listings/admin.py
+
 
 #### 6.3 Customizing list_display etc of the Realtor in the admin panel
 
@@ -153,7 +176,10 @@
         modified:   apps/realtors/admin.py
 
 
+
 ### 7. LISTINGS CRUD (READ)
+### -----------------------
+
 
 #### 7.1 Create listing_list page TVU and add template thame to it
 
@@ -195,22 +221,28 @@
         modified:   apps/listings/views.py
 
 
+
 ### 8. PAGINATION
+### -------------
+
 
 #### 8.1 PART 1: Workin on listing_list view - Get the pages from the db
 
         modified:   README.md
         modified:   apps/listings/views.py
 
+
 #### 8.2 PART 2: Workin on listing_list page - Showing the pagination (showing no-previous mark)
 
         modified:   README.md
         modified:   apps/listings/templates/listings/listing_list.html
 
+
 #### 8.3 PART 3: Workin on listing_list page - Showing the pagination (showing the: previous, active and not active link)
 
         modified:   README.md
         modified:   apps/listings/templates/listings/listing_list.html
+
 
 #### 8.4 PART 4: Workin on listing_list page - Showing the pagination (showing the NEXT)
 
@@ -218,7 +250,10 @@
         modified:   apps/listings/templates/listings/listing_list.html
 
 
+
 ### 9. LISTINGS CRUD (READ)
+### -----------------------
+
 
 #### 9.1 Display listings ORDER BY the most recent and filter by is_published
 
@@ -226,13 +261,17 @@
         modified:   apps/listings/views.py
 
 
+
 ### 10. MAKING THE HOME AND ABOUT PAGE DYNAMIC
+### ------------------------------------------
+
 
 #### 10.1 Displaying listings (with limit 3) to home page
 
         modified:   README.md
         modified:   apps/pages/templates/pages/index.html
         modified:   apps/pages/views.py
+
 
 #### 10.2 Displaying Team of Realtors to the about page
 
@@ -241,10 +280,15 @@
         modified:   apps/pages/views.py
 
 
-#### 10.2 Displaying SELLER OF THE MONTH Realtor to the about page
+#### 10.3 Displaying SELLER OF THE MONTH Realtor to the about page
 
         modified:   README.md
         modified:   apps/pages/templates/pages/about.html
+
+
+#### 10.4 Modified README.md file
+
+        modified:   README.md
 
 
 
